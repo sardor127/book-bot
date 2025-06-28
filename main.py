@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-API_TOKEN = os.getenv("TELEGRAM_TOKEN")
+API_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID"))
 
 logging.basicConfig(level=logging.INFO)
